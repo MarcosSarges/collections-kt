@@ -4,5 +4,6 @@ data class Funcionario(val nome: String, val salario: Double, val contrato: Stri
     override fun toString(): String = """
         Nome: ${nome}
         Salario: ${salario}
+        ----------------
     """.trimIndent()
 }
